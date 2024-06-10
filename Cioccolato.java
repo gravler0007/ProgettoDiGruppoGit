@@ -1,7 +1,8 @@
 public class Cioccolato {
     protected String tipoDiCioccolato;
     protected double percentuale;
-    final protected int maxCioccolato = 100;    
+    final protected int maxCioccolato = 100;
+    protected static int cioccolatoProdotto = 0;
 
     public Cioccolato(String tipoDiCioccolato, double percentuale) {
         this.tipoDiCioccolato = tipoDiCioccolato;
