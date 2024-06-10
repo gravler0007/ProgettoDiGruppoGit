@@ -35,7 +35,8 @@ public class Cioccolatino extends Cioccolato{
     @Override
     public void produce(){
         super.produce();
-        System.out.println("");
+        System.out.println("Forma: " + forma);
+        System.out.println("Ripieno: " + ripieno);
 
     }
 }
